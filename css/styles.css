@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif; 
+    
+}
+
+header {
+  background: white;
+  width: 100%;
+} 
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
+
+.menu {
+    display: flex;
+    padding: 10px;
+    list-style: none;
+    
+}
+
+.item a {
+    text-decoration: none;
+    color:black;
+    padding: 10px 15px;
+    font-family: sans-serif;
+    
+}
+
+.item a:hover {
+    color: #2F4F4F;
+}
+
+/* banner */
+
+.about-banner {
+    position: relative;
+    top: 0%;
+    display: inline-block;
+    width: 100%;
+    height: 350px;
+    background-color:  #2F4F4F;
+    color:white;
+}
+
+.images {
+    position: relative;
+    width: 310px;
+    margin-left: 650px;
+    margin-top:-210px ;
+    
+    
+}
+
+
+.title{
+    margin-top: 110px;
+    margin-left: 110px;
+    font-family: sans-serif;
+    font-size: 39px;
+    
+  }
+  
+  .sub-title {
+     margin-left: 110px;
+     font-family: sans-serif;
+     margin-top: 20px;
+     font-size: 1rem;
+     opacity: 0.7;
+  }
+
+  .sub-titless {
+    margin-left: 10px;
+    font-family: sans-serif;
+    margin-top: 15px;
+    font-size: 1rem;
+    
+ }
+
+
+  .subtitles {
+    margin-top: 20px;
+     font-size: 15px;
+     font-family: sans-serif;
+  }
+
+
+  .titles {
+      font-family: sans-serif;
+      font-size: 20px;
+  }
+
+  .button a {
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-left: 110px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    
+    
+    
+    
+}
+
+.button a:hover{
+    background-color:white;
+    color: #2F4F4F;
+}
+
+
+.about-servicios {
+    align-items: center;
+    text-align: center;
+    column-count: 3;
+    padding: 1em;
+    font-size: 20px;   
+    height: 200px;
+    margin-top: 30px;
+}
+
+span {
+    color: #2F4F4F;
+    font-size: 60px;
+}
+
+
+.text {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+
+/* sobre nosotros */
+.about-sobrenosotros {
+    padding: 80px;
+    background-color:#2F4F4F;
+    text-align: center;
+    color:white;
+}
+
+.boton{
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: 30px;
+    font-family: sans-serif;
+    
+    
+  }
+  
+  .boton:hover{
+    background-color:white;
+    color: #2F4F4F;
+  }
+
+  
+.image{
+    
+    max-width: 300px;
+    height: 200px;
+    border-radius: 15px 10px;
+    box-shadow: 0 10px 5px rgba(174,190,205,.3);
+    margin: 10px;
+     
+}
+
+.headers {
+    
+    display:flex;
+    width:100%;
+    max-width:120px;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+
+}
+
+.about-trabajo {
+    text-align: center;
+    height: 200px;
+}
+
+
+.botonn {
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid #2F4F4F;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-top: 30px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    
+  }
+  
+  .botonn:hover{
+      background: #2F4F4F;
+      color:white;
+    
+    
+  }
+
+
+  footer {
+      text-align: center;
+      height: 5px;
+      font-size: 10px;
+      margin-bottom: 20px;
+      opacity: 0.7;
+        }
